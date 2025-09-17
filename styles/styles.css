@@ -1,3 +1,14 @@
+:root {
+  --border: 1px solid black;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 nav {
   background-color: darkblue;
   padding: 10px;
@@ -16,9 +27,10 @@ h1 {
 main img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
+  border: var (--border)1;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 
 p {
@@ -31,13 +43,22 @@ main {
 
 aside {
   width:20em ;
-  margin:1rem ;
-  border:1px solid rgba(0 0 0 / 0.2) ;
-  padding:1rem ;
-  background-color: #eee;
-  color: #333;
   text-align: center;
+  position: relative;
 }
+
+/* aside h2 { */
+  /* position: absolute; */
+  /* top: 20px; */
+  /* left: 75px; */
+/* } */
+
+aside h2 {
+  position: absolute;
+  top: 15px;
+  left: 105px;
+}
+
 aside img {
   width: 200px;
   height: auto;
@@ -47,4 +68,13 @@ footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
