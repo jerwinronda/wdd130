@@ -6,7 +6,7 @@
 
 main{
    width: 600px;
-  margin: 0 auto;background-color: gainsboro;
+  margin: 0 auto;
 }
 
 h1{
@@ -19,7 +19,8 @@ form {
   gap: 20px;
   max-width: 600px;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
+  background-color: gainsboro;
 }
 
 .question {
