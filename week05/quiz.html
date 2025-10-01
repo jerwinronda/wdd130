@@ -4,25 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>
 
 <body>
-    <h1>
-
-    </h1>
-    <form action="">
-        <label for="">What does HTML stands for? (fill in the blank)</label><br>
-        <input type="text">
-        <br>
-        <label for="">How do you link your HTML file to CSS file?</label><br>
-        <textarea name="" id=""></textarea>
-
-        <label for="">
-            <legend>Which of the following is a HTML element?</legend>
-            <select name="dropdown" id=""></select>
-        </label>
-    </form>
+    <main>
+        <h1>☑️Basic HTML and CSS Quiz</h1>
+        <form action="">
+            <div class="question">
+                <label for="q1">1. What HTML tag is used to create a hyperlink?</label>
+                <input type="text" name="q1" id="q1">
+            </div>
+            <div class="question">
+                <label for="q2">2. Explain the purpose of the CSS box model.</label>
+                <textarea name="q2" id="q2"></textarea>
+            </div>
+            <div class="question">
+                <label for="q3">3. Which CSS property controls the spacing inside an element's border?</label>
+                <select name="q3" id="q3">
+                    <option selected disabled>Choose One</option>
+                    <option value="margin">margin</option>
+                    <option value="padding">padding</option>
+                    <option value="border">border</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q4">4. What is th bottom margin given this declaration?</label>
+                <code>margin: 10px 5px 15px;</code>
+                <input type="number" name="q4" id="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
 </body>
 
 </html>
