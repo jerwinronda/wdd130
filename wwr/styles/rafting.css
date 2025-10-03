@@ -251,6 +251,11 @@ margin: 0;
   height: 35px;
 }
 
+button:hover{
+  background-color: black;
+  color:white
+}
+
 /* employee section */
 .contact-figures{
   display: flex;
