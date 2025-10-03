@@ -199,6 +199,7 @@ margin: 0;
 
 .map-section {
   overflow: hidden;
+  border:0;
 }
 /* img {
   object-fit: cover;
@@ -240,7 +241,7 @@ margin: 0;
 }
 
 .subscribe{
-  font-display: flex;
+  display: flex;
   justify-content: space-evenly;
 }
 
