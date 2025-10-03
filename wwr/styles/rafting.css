@@ -174,3 +174,99 @@ main section {
   display: block;
 }
 
+
+/* Contact us page section */
+.page {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.page p{
+margin: 0;
+}
+
+.contact-us-main{
+  display: grid;
+  grid-template-columns: 390px 450px;
+}
+
+.map-section iframe,
+.map-section img {
+  width: 345px;
+  max-width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.map-section {
+  overflow: hidden;
+}
+/* img {
+  object-fit: cover;
+} */
+
+
+/* form section */
+.form-section{
+  display: grid;
+  gap: 0px;
+  font-size: 15px;
+}
+
+.name input{
+  margin-left: 50px;
+}
+.email input{
+  margin-left: 53px;
+}
+
+.name-email input{
+  width: 250px;
+  padding: 7px;
+  
+}
+
+/* RADIO BUTTONS SECTION */
+.radio-group{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.message textarea{
+  width: 347px;
+  padding: 10px;
+  
+}
+
+.subscribe{
+  font-display: flex;
+  justify-content: space-evenly;
+}
+
+.button{
+  display: grid;
+  width: 347px;
+  height: 35px;
+}
+
+/* employee section */
+.contact-figures{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-figures img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+
+}
+
+/* section */
+.contact-figures{
+  background-color: var(--primary-color);
+  padding:15px;
+}
+
