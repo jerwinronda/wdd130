@@ -47,7 +47,7 @@ nav, p, section, article {
   height: auto;
 }
 
-h1 {
+.about-us-h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -240,10 +240,10 @@ margin: 0;
   
 }
 
-.subscribe{
+/* .subscribe{
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
 .button{
   display: grid;
