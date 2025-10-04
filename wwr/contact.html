@@ -25,34 +25,32 @@
         </nav>
     </header>
     <main class="main-contact-us">
-        <section>
-            <div class="contact-us page">
-                <h1>White Water Rafting Company</h1>
-                <p>Purok1 Toliyok <br>
-                    Oroquieta City, Philippines <br>
-                    +639530496649 <br>
-                    info@whitewater.com</p>
+        <div class="contact-us page">
+            <p class="p-contact-us">White Water Rafting Company</p>
+            <p>Purok1 Toliyok <br>
+                Oroquieta City, Philippines <br>
+                +639530496649 <br>
+                info@whitewater.com</p>
+        </div>
+        <div></div>
+        <div class="contact-us-main">
+            <div class="map-section">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15015.12767591609!2d123.69353541614467!3d8.422347150690333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3254e58f5d7ff46b%3A0xda28c23dea2cb18f!2sTar&#39;s%20Riverside%20Garden!5e0!3m2!1sen!2sph!4v1759363568290!5m2!1sen!2sph"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
-        </section>
-        <section>
-            <div class="contact-us-main">
-                <div class="map-section">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15015.12767591609!2d123.69353541614467!3d8.422347150690333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3254e58f5d7ff46b%3A0xda28c23dea2cb18f!2sTar&#39;s%20Riverside%20Garden!5e0!3m2!1sen!2sph!4v1759363568290!5m2!1sen!2sph"
-                        width="600" height="450" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+            <form class="form-section">
+                <div class="name name-email">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Jerwin">
                 </div>
-                <form class="form-section">
-                    <div class="name name-email">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Jerwin">
-                    </div>
-                    <div class="email name-email">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="jronda@byupathway.edu">
-                    </div>
-                    <div class="radio-options">
+                <div class="email name-email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="jronda@byupathway.edu">
+                </div>
+                <!-- <div class="radio-options">
                         <label for="general">Message purpose</label>
                         <div class="radio-group">
                             <label class="radio-option">
@@ -71,27 +69,38 @@
                             </label>
                         </div>
 
+                    </div> -->
+                <div class="form-row">
+                    <div class="form-label">
+                        Message Purpose
                     </div>
-                    <div class="message">
-                        <label for="message">Message</label><br>
-                        <textarea name="message" id="message" rows="3" placeholder="Type here"></textarea>
+                    <div class="radio-group">
+                        <label><input type="radio" checked name="General Inquiry" value="General Inquiry">
+                            General
+                            Inquiry</label>
+                        <label><input type="radio" checked name="Reservation Question" value="Reservation Question">
+                            Reservation Question</label>
+                        <label><input type="radio" checked name="Website Suggestion" value="Website Suggestion">
+                            Website
+                            Suggestion</label>
                     </div>
-                    <div class="subscribe">
-                        <input type="checkbox" name="checkbox" id="checkbox">
-                        <label for="checkbox">Please Subscribe me to the monthly newsletter</label>
-                    </div>
-                    <div class="button">
-                        <button type="submit">Get in Touch!</button>
-                    </div>
-                </form>
-            </div>
+                </div>
+                <div class="message">
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" rows="3" placeholder="Type here"></textarea>
+                </div>
+                <div class="subscribe">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Please Subscribe me to the monthly newsletter</label>
+                </div>
+                <div class="button">
+                    <button type="submit">Get in Touch!</button>
+                </div>
+            </form>
+        </div>
 
-
-
-        </section>
-        <section>
-            <h3 class="page">We Are Here To Serve You</h3>
-
+        <div class="bg-contact-fig">
+            <h3 class="page"><br>We Are Here To Serve You</h3>
             <div class="contact-figures">
                 <figure class="contact-photos">
                     <img src="images/president.jpg" alt="The President in white t-shirt">
@@ -106,7 +115,7 @@
                     <figcaption>Secretary</figcaption>
                 </figure>
             </div>
-        </section>
+        </div>
 
     </main>
     <footer>
