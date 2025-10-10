@@ -311,10 +311,7 @@ homepage section
   margin: 0 auto;
   overflow: hidden;
 }
-/* .home-hero-img{
-  width: 840px;
-   margin: 0 auto;
-} */
+
  .home-hero-img {
   width: 100%;
   max-width: 840px;
