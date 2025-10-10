@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 
@@ -329,13 +329,18 @@ homepage section
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  color: var(--accent2-color);
-  font-size: 2rem;
   background-color: var(--primary-color);
   padding: 1rem;
   width: 90%;
   max-width: 840px;
+  color: var(--accent2-color);
 }
+
+.home-hero-text h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
 
 .newsletter form{
   display: flex;
@@ -414,7 +419,7 @@ homepage section
 
 /* trips section */
 
-.image-grid {
+.image-grid-trip {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
