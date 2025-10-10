@@ -307,26 +307,45 @@ homepage section
 
 .home-hero {
   position: relative;
+  max-width: 840px;
+  margin: 0 auto;
+  overflow: hidden;
 }
-
-.home-hero-img{
+/* .home-hero-img{
   width: 840px;
    margin: 0 auto;
+} */
+ .home-hero-img {
+  width: 100%;
+  max-width: 840px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .home-hero-text {
   position: absolute;
   bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--accent2-color);
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  width: 90%;
+  max-width: 840px;
+}
+  /* position: absolute;
+  bottom: 15%;
 text-align: center;
-
-  /* transform: translate(-50% -50%); */
   margin-right: 500px;
   color: var(--accent2-color);
   font-size: 2rem;
   background-color: var(--primary-color);
   padding: 1rem;
   width: 840px;
-}
+} */
 
 .newsletter form{
   display: flex;
