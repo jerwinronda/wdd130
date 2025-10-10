@@ -307,6 +307,16 @@ homepage section
 
 .home-hero {
   position: relative;
+}
+
+.home-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home-hero {
+  position: relative;
   max-width: 840px;
   margin: 0 auto;
   overflow: hidden;
@@ -322,13 +332,13 @@ homepage section
 
 .home-hero-text {
   position: absolute;
-  bottom: 15%;
+  top: 3%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   background-color: var(--primary-color);
   padding: 1rem;
-  width: 90%;
+  width: 100%;
   max-width: 840px;
   color: var(--accent2-color);
 }
