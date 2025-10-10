@@ -336,16 +336,6 @@ homepage section
   width: 90%;
   max-width: 840px;
 }
-  /* position: absolute;
-  bottom: 15%;
-text-align: center;
-  margin-right: 500px;
-  color: var(--accent2-color);
-  font-size: 2rem;
-  background-color: var(--primary-color);
-  padding: 1rem;
-  width: 840px;
-} */
 
 .newsletter form{
   display: flex;
