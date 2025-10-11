@@ -332,7 +332,7 @@ homepage section
 
 .home-hero-text {
   position: absolute;
-  top: 75%;
+  top: 3%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
