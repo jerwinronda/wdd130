@@ -343,6 +343,19 @@ homepage section
   color: var(--accent2-color);
 }
 
+.home-hero-text-h2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  width: 100%;
+  max-width: 840px;
+  color: var(--accent2-color);
+}
+
 .home-hero-text h1 {
   margin: 0;
   font-size: 2rem;
@@ -425,6 +438,17 @@ homepage section
 }
 
 /* trips section */
+
+.trips-h1 {
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+}
 
 .image-grid-trip {
   display: flex;
